@@ -1,9 +1,9 @@
 import axios from "axios";
 import { ADD_TO_WISHLIST, REMOVE_FROM_WISHLIST } from "../constants/wishlistConstants";
-
+import { BASE_URL } from "../constants/userConstants";
 // Add To Wishlist
 export const addToWishlist = (id) => async (dispatch, getState) => {
-    const { data } = await axios.get(`/api/v1/product/${id}`);
+    const { data } = await axios.get(`${BASE_URL}/product/${id}`);
 
     dispatch({
         type: ADD_TO_WISHLIST,
