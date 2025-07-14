@@ -30,7 +30,7 @@ A full-featured e-commerce application inspired by [Flipkart](https://www.flipka
 
 | Layer        | Technologies Used                             |
 |--------------|------------------------------------------------|
-| Frontend     | React, React Router, Axios, Tailwind CSS (or Bootstrap) |
+| Frontend     | React, React Router, Axios, Tailwind CSS       |
 | Backend      | Node.js, Express.js, MongoDB, Mongoose         |
 | Auth         | JWT-based Authentication                       |
 | Image Upload | Cloudinary                                     |
