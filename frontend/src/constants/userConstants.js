@@ -1,7 +1,7 @@
 export const LOGIN_USER_REQUEST = "LOGIN_USER_REQUEST";
 export const LOGIN_USER_SUCCESS = "LOGIN_USER_SUCCESS";
 export const LOGIN_USER_FAIL = "LOGIN_USER_FAIL";
-export const BASE_URL = "https://flipkart-clone-1-g7an.onrender.com/api/v1";
+export const BASE_URL = "https://flipkart-clone-2-6sr4.onrender.com/api/v1";
 export const REGISTER_USER_REQUEST = "REGISTER_USER_REQUEST";
 export const REGISTER_USER_SUCCESS = "REGISTER_USER_SUCCESS";
 export const REGISTER_USER_FAIL = "REGISTER_USER_FAIL";
